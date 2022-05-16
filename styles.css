@@ -484,7 +484,6 @@ p {
 #about .col-left {
     width: 250px;
     height: 350px;
-    padding: 5px;
 }
 
 #about .col-left .about-img {
@@ -507,6 +506,7 @@ p {
 
 #about .col-right {
     width: 100%;
+    padding: 5px;
 }
 
 #about .col-right p {
