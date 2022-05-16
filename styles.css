@@ -9,6 +9,7 @@
     text-decoration: none;
 }
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -34,7 +35,7 @@ p {
     background-color: transparent;
     border: 2px solid orange;
     color: orange;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     margin: 10px 0 50px 0;
@@ -60,10 +61,10 @@ p {
     font-size: 4rem;
     font-weight: 300;
     color: #000000;
-    margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
+    padding: 0 5px 10px 0;
 }
 
 .section-title span {
@@ -107,9 +108,9 @@ p {
     padding: 0 10px;
 }
 
-/* #header .nav-bar .brand {
+#header .nav-bar .brand {
     margin-left: 50px;
-} */
+}
 
 #header .nav-list ul {
     display: flex;
@@ -319,6 +320,7 @@ p {
 #services .services-top {
     max-width: 500px;
     margin: 0 auto;
+    padding: 5px;
 }
 
 #services .services-top p {
@@ -482,6 +484,7 @@ p {
 #about .col-left {
     width: 250px;
     height: 350px;
+    padding: 5px;
 }
 
 #about .col-left .about-img {
@@ -535,10 +538,16 @@ p {
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 100px 0;
 }
 
 #contact .contact-items {
-    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 4em;
+    width: 100%;
 }
 
 #contact .contact-item {
@@ -546,7 +555,6 @@ p {
     padding: 30px;
     text-align: center;
     border-radius: 10px;
-    margin: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -623,7 +631,7 @@ p {
 
 #footer p {
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 
